@@ -1,4 +1,173 @@
+
+/*  Primer Container*/
+.p-cont{
+    background-color: #121229; 
+    color:#8F7C36; 
+    height: 700px;
+}
+.p-cont h1{
+    margin-top: 100px;
+}
+
+
+/*  Quienes Somos */
+.q-s{
+    background-color: #8F7C36; 
+    color: #fff;
+    height: 540px; 
+}
+
+.q-s h2{
+    margin-top: 150px; 
+    font-size: 40px;
+}
+
+/* Tipos de Blindaje  */
+.t-b{
+    height: 540px;
+}
+
+.t-bd{
+    background-color: white; 
+    height: 540px;
+}
+
+.t-bd h2{
+    color: #8F7C36; 
+    margin-top: 220px;
+}
+
+.t-bd2{
+    background-color: #121229; 
+    height: 540px;
+}
+
+/* Proceso de Blindaje */
+.p-b{
+    height: 540px;
+}
+
+.pb-div{
+    background-color: #121229; 
+    color: #fff;
+    height: 540px;
+}
+
+.pb-h2{
+    color:#8F7C36; 
+    margin-top: 200px;
+}
+
+/* Coentes */
+
+.clientes-contenedor{
+    background-color: #8F7C3659; 
+    color: #243146;
+    height: 875px; 
+}
+
+.clientes-h1{
+    margin-top: 10%;
+}
+
+.clientes-div{
+    height: 300px; 
+    margin: 50px;
+}
+
+.clientes-box{
+    background-color: #000; 
+    color: #fff;
+    width: 200px;
+}
+
+.clientes-desc{
+    height: 300px; margin-top: 20px;
+}
+
+.bbox{
+    color: #252525;
+    width: 200px;
+}
+
+/* Sucursales */
+.sucursales-cont{
+    background-color: #8F7C36; 
+    color: #fff;
+    justify-content: right; 
+    height: 370px; 
+}
+
+.suc-div{
+    background-color: #fff;
+    align-items: center; 
+    height: 300px; 
+    width: 850px; 
+}
+
+/* Tipos de Cambio */
+.t-cambio{
+    background-color: #121229; 
+    color:#fff;
+    justify-content: right; 
+    height: 370px; 
+}
+
+.tc-box{
+    background-color: #fff;
+    height: 300px; 
+    width: 850px; 
+}
+
+/* Contacto */
+.contact{
+    background-color: #8F7C3669;
+    color:#fff;
+    justify-content: right; 
+    height: 370px; 
+}
+
+.contacto-box{
+    align-items: center; 
+    background-color: #fff;
+    height: 300px; 
+    width: 850px; 
+}
+
+
+/* footer */
 .footer{
     background-color: #fff;
     height: 315px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
