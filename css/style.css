@@ -1,3 +1,23 @@
+/* Boton flotante */
+.flotante {
+    display:scroll;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+}
+
+.btn-ini{
+    font-size: 5rem;
+
+}
+
+/* Header */
+.barra-nav{
+    background-color: #fff; 
+    position: fixed; 
+    top: 0;
+    width: 100%;
+}
 
 /*  Primer Container*/
 .p-cont{
