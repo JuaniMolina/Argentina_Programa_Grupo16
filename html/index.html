@@ -15,14 +15,26 @@
 <body>
     <!-- header -->
     <div id="inicio">
-        <header class="barra-nav d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <header class="barra-nav d-flex flex-wrap py-3  border-bottom">
+            <div class="logo col-6">
+                <img src="/img/logo.png" alt="" width="100px" style="border-radius: 20px;">
+            </div>
             <a href="" class="d-flex"></a>
             <ul class="nav nav-pills">
                 <li class="nav-item">
-                    <a href="#inicio" class="nav-link active">Inicio</a>
+                    <a href="#inicio" class="nav-link ">Inicio</a>
                 </li>
                 <li class="nav-item">
                     <a href="#q-somos" class="nav-link">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#t-blindaje" class="nav-link">Tipos de Blindaje</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#procesos" class="nav-link">Procesos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#clientes" class="nav-link">Clientes</a>
                 </li>
                 <li class="nav-item">
                     <a href="/html/equipo.html" class="nav-link">Equipo</a>
@@ -35,13 +47,13 @@
     </div>
     <!-- primer container -->
     <div class=" text-center border p-cont">
-        <h1>Car Armor</h1>
+        <h1 class="t-logo">Car Armor</h1>
         <p>Protege lo que importa</p>
-        <iframe width="792" height="523" src="https://www.youtube.com/embed/S2ao8KVvBNA" title="YouTube video player" frameborder="0" style="margin-top: 100px;"></iframe>
+        <iframe width="1024" height="512" src="https://www.youtube.com/embed/S2ao8KVvBNA" title="YouTube video player" frameborder="0"></iframe>
     </div>
     <!-- Quienes Somos -->
     <div class=" border q-s" id="q-somos">
-        <div class="row">
+        <div class="row ">
             <h2 class="text-center">QUIENES SOMOS</h2>
             <p class="text-center">
             Somos una empresa especializada en seguridad vehicular, con más de 20 de años de trayectoria en el rubro. Contamos con un equipo altamente capacitado en la instalación y mantenimiento del blindaje, asegurando que tu vehículo sea tratado con el mayor cuidado y atención posible. 
@@ -54,7 +66,7 @@
         </div>
     </div>
     <!-- Tipos de Blindaje -->
-    <div class=" border t-b">
+    <div id="t-blindaje" class=" border t-b">
         <div class="row">
             <div class="col text-center t-bd">
                 <h2>TIPOS DE BLINDAJE</h2>
@@ -64,7 +76,7 @@
         </div>
     </div>
     <!-- Proceso de blindaje -->
-    <div class=" border p-b" >
+    <div id="procesos" class=" border p-b" >
         <div class="row">
             <div class="pb-div col text-center" >
                 <h2 class="pb-h2">PROCESO</h2>
@@ -76,24 +88,24 @@
         </div>
     </div>
     <!-- Clientes -->
-    <div class=" border text-center clientes-contenedor">
-        <h1 class="text-center clientes-h1">NUESTROS CLIENTES</h1>
+    <div id="clientes" class=" border text-center clientes-contenedor">
+        <h1 class="text-center clientes-h1 m-4">NUESTROS CLIENTES</h1>
         <div class="row d-flex clientes-div">
-            <div class="col rounded-5 border clientes-box">bla1</div>
-            <div class="col rounded-5 border clientes-box">bla2</div>
-            <div class="col rounded-5 border clientes-box">bla3</div>
+            <div class="col rounded-5 border clientes-box m-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores adipisci ipsa sequi quasi itaque. Minus totam hic magnam quis accusamus...</div>
+            <div class="col rounded-5 border clientes-box m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, consectetur numquam. Incidunt sit quo eaque tempore dolores obcaecati nihil iusto ducimus enim. Quia commodi aliquid recusandae sequi quasi officiis assumenda ut corrupti, laudantium illum voluptas...</div>
+            <div class="col rounded-5 border clientes-box m-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem atque ut, aperiam quibusdam omnis odio, nesciunt veniam impedit neque nostrum voluptates quia commodi rem modi? Quae dolorem minus ipsum obcaecati! Beatae tempora nisi deserunt repellat eaque harum culpa omnis...</div>
         </div>
-        <div class="row text-start m-5 clientes-desc">
-            <div class="col bbox">
+        <div class="row text-start m-auto clientes-desc">
+            <div class="col bbox m-2">
                 <h4>Persona 1</h4>
                 <p>Reseña</p>
             </div>
-            <div class="col bbox">
-                <h4>Persona 1</h4>
+            <div class="col bbox m-2">
+                <h4>Persona 2</h4>
                 <p>Reseña</p>
             </div>
-            <div class="col bbox">
-                <h4>Persona 1</h4>
+            <div class="col bbox m-2">
+                <h4>Persona 3</h4>
                 <p>Reseña</p>
             </div>
         </div>
@@ -146,7 +158,7 @@
                         <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                             <label for="newsletter1" class="visually-hidden">Email address</label>
                             <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                            <button class="btn btn-primary" type="button">Subscribe</button>
+                            <button id="boton" class="btn btn-primary" type="button">Subscribe</button>
                         </div>
                     </form>
                 </div>
@@ -164,6 +176,8 @@
     </div>
     <!-- Boton Flotante -->
     <a class='flotante' href='#inicio' ><i class="bi bi-arrow-up-circle btn-ini"></i></a>
-
+    <!-- Scrip -->
+    <script src="/js/script.js"></script>
 </body>
+
 </html>
