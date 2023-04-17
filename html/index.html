@@ -37,10 +37,10 @@
                     <a href="#clientes" class="nav-link">Clientes</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/html/equipo.html" class="nav-link">Equipo</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contacto" class="nav-link">Contacto</a>
+                    <a href="/html/equipo.html" class="nav-link">Equipo</a>
                 </li>
             </ul>
         </header>
@@ -69,12 +69,12 @@
     <div id="t-blindaje" class=" border t-b">
         <div class="row">
             <div class="col-6 text-center t-bd">
-                <h2>TIPOS DE BLINDAJE</h2>
-                <p>Un servicio a tu medida, conoce nuestras opciones</p>
+                <h2 style="font-size: 40px;">TIPOS DE BLINDAJE</h2>
+                <p style="font-size: 20px;">Un servicio a tu medida, conoce nuestras opciones</p>
             </div>
             <div class="col-6 t-bd2">
-                <div class="row  p-5 text-center">
-                    <div class="col border m-2 rounded-5" style="padding-top:20px; background-color: #252525; color: #fff; width: 600px; height: 200px;">
+                <div class="row d-flex p-5 text-center" >
+                    <div class="col border m-2 rounded-5" style=" padding-top:20px; background-color: #252525; color: #fff; width: 600px; height: 200px;">
                         <h6>Nivel RB1</h6>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, consequatur?</p>
                     </div>
@@ -98,8 +98,8 @@
     <div id="procesos" class=" border p-b" >
         <div class="row">
             <div class="pb-div col text-center" >
-                <h2 class="pb-h2">PROCESO</h2>
-                <p>
+                <h2 class="pb-h2" style="font-size: 40px;">PROCESO</h2>
+                <p style="margin: 20px; font-size: 20px;">
                     Luego de la evaluación vehícular donde se realiza una evaluación detallada del vehículo para determinar su idoneidad para el proceso de blindaje inicia el proceso de blindaje.
                 </p>
             </div>
@@ -131,18 +131,46 @@
     </div>
     <!-- Sucursales -->
     <div class=" border d-flex sucursales-cont">
-        <h2 class="m-auto">SUCURSALES</h2>
-        <div class="border m-4 suc-div"></div>
+        <div class="m-auto">
+            <h2 class="m-auto text-center">SUCURSALES</h2>
+            <br>
+            <ul style="list-style: none;">
+                <li><button id="laplata" onclick="mapa(1)" ><i class="bi bi-geo-alt-fill"></i> Av. La Plata, la plata, Buenos Aires.</li><br></button>
+                <li><button id="vic-lopez" onclick="mapa(2)"><i class="bi bi-geo-alt-fill"></i> Av. del Libertador 1313, Vicente Lopez, Buenos Aires.</li></button>
+            </ul>
+        </div>
+        <div class=" d-flex " style="height: 370px;width: 850px; align-items: center; margin-right: 25px;">
+            <iframe id="mapa"src="" width="850" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
     <!-- Tipos de Cambio -->
     <div class=" border d-flex t-cambio">
-        <h2 class="m-auto d-flex">TIPOS DE CAMBIO</h2>
+        <div class="m-auto text-center">
+            <h2 class="m-auto">TIPO DE CAMBIO</h2><br>
+            <p> u$s </p>
+        </div>
         <div class="border d-flex m-4 tc-box"></div>
     </div>
     <!-- Contacto -->
-    <div id="contacto" class="border d-flex contact">
-        <h2 class="m-auto">CONTACTO</h2>
-        <div class="border m-4 contacto-box"></div>
+    <div id="contacto" class="border text-center d-flex contact">
+        <div class="m-auto">
+            <h2 class="">CONTACTO</h2>
+        </div>
+        <div class=" d-flex">
+            <div class="contact_form m-4 border p-5" style="max-width: 850px; min-width: 850px;">
+                <div class="formulario text-center">
+                    <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+                    <form action="submeter-formulario.php" method="post">				
+                        <input type="text" name="Nombre" id="nombre" placeholder="Nombre">
+                        <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+                        <input type="text" name="Email" id="Email" placeholder="Email"><br>
+                        <input type="text" name="telefono" id="telefono" placeholder="Teléfono">
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+
+                    </form>
+                </div>	
+            </div>
+        </div>
     </div>
     <!-- Footer -->
     <div class="m-5">

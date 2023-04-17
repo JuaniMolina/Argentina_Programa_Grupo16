@@ -176,8 +176,21 @@
     font-size: 50px;
 }
 
+/* botones mapa */
+#laplata, #vic-lopez{
+    background-color: #8F7C36;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
 
-
+#laplata:hover, #vic-lopez:hover{
+    background-color: #fff;
+    color: #8F7C36;
+    border: 1px solid #8F7C36;
+}
 
 
 
