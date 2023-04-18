@@ -14,48 +14,50 @@
 </head>
 <body>
     <!-- header -->
-    <div id="inicio">
-        <header class="barra-nav d-flex flex-wrap py-3  border-bottom">
+    <div id="inicio">   
+        <header class="barra-nav d-flex flex-wrap py-1 border-bottom">
             <div class="logo col-6">
                 <img src="/img/logo.png" alt="" width="100px" style="border-radius: 20px;">
             </div>
             <a href="" class="d-flex"></a>
-            <ul class="nav nav-pills">
-                <li class="nav-item">
+            <ul id="btns-nav" class="nav nav-pills">
+                <li id="item" class="nav-item">
                     <a href="#inicio" class="nav-link ">Inicio</a>
                 </li>
-                <li class="nav-item">
+                <li id="item" class="nav-item">
                     <a href="#q-somos" class="nav-link">Quienes somos</a>
                 </li>
-                <li class="nav-item">
+                <li id="item" class="nav-item">
                     <a href="#t-blindaje" class="nav-link">Tipos de Blindaje</a>
                 </li>
-                <li class="nav-item">
+                <li id="item" class="nav-item">
                     <a href="#procesos" class="nav-link">Procesos</a>
                 </li>
-                <li class="nav-item">
+                <li id="item" class="nav-item">
                     <a href="#clientes" class="nav-link">Clientes</a>
                 </li>
-                <li class="nav-item">
+                <li id="item" class="nav-item">
                     <a href="#contacto" class="nav-link">Contacto</a>
                 </li>
-                <li class="nav-item">
+                <li id="item" class="nav-item">
                     <a href="/html/equipo.html" class="nav-link">Equipo</a>
                 </li>
             </ul>
         </header>
     </div>
+
     <!-- primer container -->
     <div class=" text-center border p-cont">
         <h1 class="t-logo">Car Armor</h1>
         <p>Protege lo que importa</p>
-        <iframe width="1024" height="512" src="https://www.youtube.com/embed/S2ao8KVvBNA" title="YouTube video player" frameborder="0"></iframe>
+        <iframe width="1024" height="512" src="https://www.youtube.com/embed/S2ao8KVvBNA" title="YouTube video player" frameborder="0" style="margin-top: 40px;"></iframe>
     </div>
+
     <!-- Quienes Somos -->
-    <div class=" border q-s" id="q-somos">
-        <div class="row ">
-            <h2 class="text-center">QUIENES SOMOS</h2>
-            <p class="text-center p-5">
+    <div id="q-somos" class=" border q-s text-center">
+        <div class="row m-auto ">
+            <h2 style="margin-top: 100px;">QUIENES SOMOS</h2>
+            <p class=" p-5">
             Somos una empresa especializada en seguridad vehicular, con más de 20 de años de trayectoria en el rubro. Contamos con un equipo altamente capacitado en la instalación y mantenimiento del blindaje, asegurando que tu vehículo sea tratado con el mayor cuidado y atención posible. 
             <br><br>
             Nos enorgullece brindar un servicio de alta calidad, utilizando materiales de la más alta tecnología y los mejores procesos de instalación, para garantizar la protección y seguridad de nuestros clientes. Además, ofrecemos una variedad de opciones de blindaje para que puedas elegir el nivel de protección que mejor se adapte a tus necesidades y presupuesto.
@@ -65,6 +67,7 @@
             </p>
         </div>
     </div>
+
     <!-- Tipos de Blindaje -->
     <div id="t-blindaje" class=" border t-b">
         <div class="row">
@@ -94,6 +97,7 @@
             </div>
         </div>
     </div>
+
     <!-- Proceso de blindaje -->
     <div id="procesos" class=" border p-b" >
         <div class="row">
@@ -106,6 +110,7 @@
             <div class="col" style="background-color: white; height: 540px;"></div>
         </div>
     </div>
+
     <!-- Clientes -->
     <div id="clientes" class=" border text-center clientes-contenedor">
         <h1 class="text-center clientes-h1 m-4">NUESTROS CLIENTES</h1>
@@ -129,8 +134,9 @@
             </div>
         </div>
     </div>
+
     <!-- Sucursales -->
-    <div class=" border d-flex sucursales-cont">
+    <div id="sucursales" class=" border d-flex sucursales-cont">
         <div class="m-auto">
             <h2 class="m-auto text-center">SUCURSALES</h2>
             <br>
@@ -143,6 +149,7 @@
             <iframe id="mapa"src="" width="850" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
+
     <!-- Tipos de Cambio -->
     <div class=" border d-flex t-cambio">
         <div class="m-auto text-center">
@@ -151,11 +158,13 @@
         </div>
         <div class="border d-flex m-4 tc-box"></div>
     </div>
+
     <!-- Contacto -->
     <div id="contacto" class="border text-center d-flex contact">
         <div class="m-auto">
-            <h2 class="">CONTACTO</h2>
+            <h2>CONTACTO</h2>
         </div>
+
         <div class=" d-flex">
             <div class="contact_form m-4 border p-5" style="max-width: 850px; min-width: 850px;">
                 <div class="formulario text-center">
@@ -166,63 +175,56 @@
                         <input type="text" name="Email" id="Email" placeholder="Email"><br>
                         <input type="text" name="telefono" id="telefono" placeholder="Teléfono">
                         <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
-
                     </form>
                 </div>	
             </div>
         </div>
     </div>
+
     <!-- Footer -->
     <div class="m-5">
         <footer class="py-5">
             <div class="row" style="display: flex; justify-content: space-between;">
                 <div class="col-6 col-md-2 mb-3">
-                    <h5>Section</h5>
+                    <h5>Links</h5>
                         <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Inicio</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                        <li class="nav-item mb-2"><a href="#inicio" class="nav-link p-0 text-body-secondary">Inicio</a></li>
+                        <li class="nav-item mb-2"><a href="#q-somos" class="nav-link p-0 text-body-secondary">Quienes Somos</a></li>
+                        <li class="nav-item mb-2"><a href="#t-blindaje" class="nav-link p-0 text-body-secondary">Tipos de Blindaje</a></li>
+                        <li class="nav-item mb-2"><a href="#procesos" class="nav-link p-0 text-body-secondary">Proceso de Blindaje</a></li>
+                        <li class="nav-item mb-2"><a href="#sucursales" class="nav-link p-0 text-body-secondary">Sucursales</a></li>
                         </ul>
-                </div>
-            
-                <div class="col-6 col-md-2 mb-3">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-                    </ul>
                 </div>
             
                 <div class="col-md-5 offset-md-1 mb-3">
                     <form>
-                        <h5>Subscribe to our newsletter</h5>
-                        <p>Monthly digest of what's new and exciting from us.</p>
+                        <h5>Suscribete para recibir las ultimas noticias y promociones.</h5>
+                        <p>Mensualmente recibiras un mail contandote mas de nuestros productos</p>
                         <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                            <label for="newsletter1" class="visually-hidden">Email address</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                            <button id="boton" class="btn btn-primary" type="button">Subscribe</button>
+                            <label for="newsletter1" class="visually-hidden">Email</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email">
+                            <button id="boton" class="btn btn-primary" type="button">Subscrir</button>
                         </div>
                     </form>
                 </div>
             </div>
         
             <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                <p>© 2023 Company, Inc. All rights reserved.</p>
-                <ul class="list-unstyled d-flex">
-                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                <p>© 2023 Car Armor Company, Inc. Todos los derechos reservados.</p>
+                <ul class="list-unstyled d-flex" style="margin-left: auto; font-size: 30px;">
+                    <li class="ms-3"><a class="link-body-emphasis" href="http://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a></li>
                 </ul>
             </div>
         </footer>
     </div>
+
     <!-- Boton Flotante -->
-    <a class='flotante' href='#inicio' ><i class="bi bi-arrow-up-circle btn-ini"></i></a>
+    <a class='flotante' href='#inicio' >
+        <i class="bi bi-arrow-up-circle btn-ini"></i>
+    </a>
+
     <!-- Scrip -->
     <script src="/js/script.js"></script>
 </body>

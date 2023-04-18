@@ -14,11 +14,17 @@
 /* Header */
 .barra-nav{
     background-color: #fff; 
-    position: fixed; 
+    /* position: fixed;  */
     align-items: center;
     justify-content: space-around;
     top: 0;
     width: 100%;
+}
+
+#item:hover{
+    background-color: #121229;
+    color: #fff;
+    border-radius: 10px;
 }
 
 /*  Primer Container*/
@@ -30,7 +36,7 @@
 }
 
 .p-cont h1{
-    margin-top: 160px;
+    margin-top: 20px;
 }
 
 /*  Quienes Somos */
@@ -40,8 +46,7 @@
     height: 540px; 
 }
 
-.q-s h2{
-    margin-top: 150px; 
+.q-s h2{ 
     font-size: 40px;
 }
 
