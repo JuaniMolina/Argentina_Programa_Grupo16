@@ -15,3 +15,14 @@ document.getElementById("laplata").addEventListener("click", mapa());
 document.getElementById("vic-lopez").addEventListener("click", mapa());
 
 // ---------------------------------------------------------------------
+let result
+var myHeaders = new Headers();
+myHeaders.append("apikey", "QadUroUjhWrzTF7eqSYEjtmmP9LPJ4wb");
+
+var requestOptions = {
+    method: 'GET',
+    redirect: 'follow',
+    headers: myHeaders
+};
+
+
